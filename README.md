@@ -16,6 +16,10 @@
 </script>
 ```
 
+<picture>
+  <img alt="Show what is rendered in html" src="./public/images/first_lesson_react_app.jpg">
+</picture>
+
 ## This is about the simplest React app you can build.
 
 - The first thing we do is make our own component, App. React is all about
