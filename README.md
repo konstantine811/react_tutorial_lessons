@@ -1,20 +1,22 @@
-```
+# First React App
+
+```html
 <script>
-    // React app
-    const App = () => {
+  // React app
+  const App = () => {
     return React.createElement(
-        "div",
-        {},
-        React.createElement("h1", {}, "Adopt Me!")
+      "div",
+      {},
+      React.createElement("h1", {}, "Adopt Me!")
     );
-    };
-    const container = document.getElementById("root");
-    const root = ReactDOM.createRoot(container);
-    root.render(React.createElement(App));
+  };
+  const container = document.getElementById("root");
+  const root = ReactDOM.createRoot(container);
+  root.render(React.createElement(App));
 </script>
 ```
 
-This is about the simplest React app you can build.
+## This is about the simplest React app you can build.
 
 - The first thing we do is make our own component, App. React is all about
   making components. And then taking those components and making more components
